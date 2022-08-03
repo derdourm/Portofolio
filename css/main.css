@@ -306,7 +306,7 @@ section {
    
   }
 }
-button{
+.db button{
   font-weight: bold;
   color: white;
   outline: none;
@@ -314,6 +314,8 @@ button{
   background-color:#0058f1;
   width: 100px;
   height: 30px;
-  position: absolute;
-  left: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
+
